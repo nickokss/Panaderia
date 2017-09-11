@@ -1,0 +1,13 @@
+button:hover{
+  background-color: #845421;
+}
+div.footer3>img:hover{
+  border: 2px solid #FFF;
+}
+li>a:hover{
+  color: #e3e8ef;
+}
+div.footer4>img.foot3:hover{
+  border-radius: 2px;
+  border: 2px solid  #aa6320;
+}

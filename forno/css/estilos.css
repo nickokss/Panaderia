@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*color logo #c87a1b*/
+
+@media screen and (min-width: 1700px) {
+    body {
+        background-image: url('../img/sacar_horno.jpg');
+        background-repeat: no-repeat;
+    }
+
+    li.forno>a {
+        color: #aa6320;
+        text-shadow: none;
+    }
+    div.lema {
+        margin-top: 350px;
+        height: 40px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    h1.frase {
+        text-align: center;
+        text-indent: 4px;
+        text-shadow: 4px 4px 3px black;
+        font-size: 50px;
+        font-family: 'Slabo 27px', serif;
+        color: #FFF;
+    }
+    section.recetas {
+        margin-top: 600px;
+        height: 400px;
+        width: 100%;
+    }
+    article.santiago {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-image: url('../img/santiago.jpg');
+        background-size: 100%;
+    }
+    article.roscon {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-image: url('../img/roscon.jpg');
+        background-size: 100%;
+    }
+    article.santiago>p {
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: underline;
+        width: 50%;
+        font-size: 70px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article.roscon>p {
+        margin-top: 45px;
+        text-align: center;
+        text-decoration: underline;
+        width: 50%;
+        font-size: 85px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article>p>a {
+        color: #FFF;
+    }
+    div.fondo2 {
+        width: 100%;
+        height: 450px;
+    }
+    img.dous {
+        height: 450px;
+    }
+    h1.h1 {
+        text-align: center;
+        margin-top: -360px;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+        font-size: 65px;
+        font-family: 'Slabo 27px', serif;
+    }
+    p.p {
+        text-align: center;
+        width: 50%;
+        font-size: 25px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    div.boton {
+        margin-top: 50px;
+        margin-left: 47%;
+    }
+    a.boton {
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        color: #FFF;
+        background-color: #aa6320;
+    }
+
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1700px) {
+    body {
+        background-image: url('../img/sacar_horno.jpg');
+        background-repeat: no-repeat;
+    }
+
+    li.forno>a {
+        color: #aa6320;
+        text-shadow: none;
+    }
+    div.lema {
+        margin-top: 350px;
+        height: 40px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    h1.frase {
+        text-align: center;
+        text-indent: 4px;
+        text-shadow: 4px 4px 3px black;
+        font-size: 45px;
+        font-family: 'Slabo 27px', serif;
+        color: #FFF;
+    }
+    section.recetas {
+        margin-top: 400px;
+        height: 400px;
+        width: 100%;
+    }
+    article.santiago {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-image: url('../img/santiago.jpg');
+        background-size: 100%;
+    }
+    article.roscon {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-image: url('../img/roscon.jpg');
+        background-size: 100%;
+    }
+    article.santiago>p {
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: underline;
+        width: 70%;
+        font-size: 70px;
+        margin-left: 15%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article.roscon>p {
+        margin-top: 45px;
+        text-align: center;
+        text-decoration: underline;
+        width: 50%;
+        font-size: 85px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article>p>a {
+        color: #FFF;
+    }
+    div.fondo2 {
+        width: 100%;
+        height: 450px;
+    }
+    img.dous {
+        height: 450px;
+    }
+    h1.h1 {
+        text-align: center;
+        margin-top: -360px;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+        font-size: 65px;
+        font-family: 'Slabo 27px', serif;
+    }
+    p.p {
+        text-align: center;
+        width: 50%;
+        font-size: 25px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    div.boton {
+        margin-top: 50px;
+        margin-left: 46%;
+    }
+    a.boton {
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        color: #FFF;
+        background-color: #aa6320;
+    }
+
+}
+
+@media screen and (min-width: 890px) and (max-width: 1300px) {
+    body {
+        background-image: url('../img/sacar_horno.jpg');
+        background-repeat: no-repeat;
+    }
+
+    li.forno>a {
+        color: #aa6320;
+        text-shadow: none;
+    }
+    div.lema {
+        margin-top: 350px;
+        height: 40px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    h1.frase {
+        text-align: center;
+        text-indent: 4px;
+        text-shadow: 4px 4px 3px black;
+        font-size: 42px;
+        font-family: 'Slabo 27px', serif;
+        color: #FFF;
+    }
+    section.recetas {
+        margin-top: 400px;
+        height: 400px;
+        width: 100%;
+    }
+    article.santiago {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-image: url('../img/santiago.jpg');
+        background-size: 100%;
+    }
+    article.roscon {
+        float: left;
+        width: 50%;
+        height: 400px;
+        background-image: url('../img/roscon.jpg');
+        background-size: 100%;
+    }
+    article.santiago>p {
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: underline;
+        width: 70%;
+        font-size: 70px;
+        margin-left: 15%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article.roscon>p {
+        margin-top: 45px;
+        text-align: center;
+        text-decoration: underline;
+        width: 50%;
+        font-size: 85px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article>p>a {
+        color: #FFF;
+    }
+    div.fondo2 {
+        width: 100%;
+        height: 450px;
+    }
+    img.dous {
+        height: 450px;
+    }
+    h1.h1 {
+        text-align: center;
+        margin-top: -360px;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+        font-size: 65px;
+        font-family: 'Slabo 27px', serif;
+    }
+    p.p {
+        text-align: center;
+        width: 50%;
+        font-size: 25px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    div.boton {
+        margin-top: 50px;
+        margin-left: 44%;
+    }
+    a.boton {
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        color: #FFF;
+        background-color: #aa6320;
+    }
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 890px) {
+    body {
+        background-image: url('../img/sacar_horno.jpg');
+        background-repeat: no-repeat;
+    }
+
+    li.forno>a {
+        color: #aa6320;
+        text-shadow: none;
+    }
+    div.lema {
+        margin-top: 350px;
+        height: 40px;
+        width: 70%;
+        margin-left: 15%;
+    }
+    h1.frase {
+        text-align: center;
+        text-indent: 4px;
+        text-shadow: 4px 4px 3px black;
+        font-size: 36px;
+        font-family: 'Slabo 27px', serif;
+        color: #FFF;
+    }
+    section.recetas {
+        margin-top: 400px;
+        height: 400px;
+        width: 100%;
+    }
+    article.santiago {
+        float: left;
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/santiago.jpg');
+        background-size: 100%;
+        clear: left;
+    }
+    article.roscon {
+        float: left;
+        width: 100%;
+        height: 400px;
+        background-image: url('../img/roscon.jpg');
+        background-size: 100%;
+    }
+    article.santiago>p {
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: underline;
+        width: 70%;
+        font-size: 60px;
+        margin-left: 15%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article.roscon>p {
+        margin-top: 45px;
+        text-align: center;
+        text-decoration: underline;
+        width: 50%;
+        font-size: 75px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    article>p>a {
+        color: #FFF;
+    }
+    div.fondo2 {
+        width: 100%;
+        height: 450px;
+    }
+    img.dous {
+        height: 450px;
+    }
+    h1.h1 {
+        text-align: center;
+        margin-top: -360px;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+        font-size: 52px;
+        font-family: 'Slabo 27px', serif;
+    }
+    p.p {
+        text-align: center;
+        width: 50%;
+        font-size: 23px;
+        margin-left: 25%;
+        font-family: 'Slabo 27px', serif;
+        text-shadow: 4px 4px 3px black;
+        color: #FFF;
+    }
+    div.boton {
+        margin-top: 50px;
+        margin-left: 40%;
+    }
+    a.boton {
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 17px;
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        color: #FFF;
+        background-color: #aa6320;
+
+
+    }
+    footer{
+      margin-top: 400px;
+    }
+}

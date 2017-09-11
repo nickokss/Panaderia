@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/movil.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Slabo+27px" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var div1 = $('#un');
+            var div2 = $('#dous');
+            var div3 = $('#tres');
+            var menu = $('#menu');
+            var contenedor = $('#menu-contenedor');
+            var menu_offset = menu.offset();
+            var menu_offset1 = div1.offset();
+            var menu_offset2 = div2.offset();
+            var menu_offset3 = div3.offset();
+
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > menu_offset.top) {
+                    menu.addClass('cabecera');
+                } else {
+                    menu.removeClass('cabecera');
+                }
+
+            });
+
+        });
+    </script>
+    <title>O forno de manuela</title>
+</head>
+
+<body>
+    <header id="menu">
+      <div id="dous">
+          <a class='logo' href="./mvIndex.html">
+              <img src="img/logo.png">
+          </a>
+      </div>
+      <div id="tres">
+          <nav>
+              <ul>
+                <li class="encargas"><a href="./mvProductos.html">Productos</a></li>
+                <li class="contacto"><a href="./mvContactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="lema2">
+        <img class="pro" src="img/mezclas.jpg">
+
+        <h1 class="h111">Produtos</h1>
+        <h3>-Mira a nosa gama de produtos-</h3>
+        <br>
+
+    </div>
+    <section class="todosDias">
+        <span>
+          <p><a>Todolos días</a></p>
+        </span>
+        <article>
+          <p class="comida">Pan de barra</p> <br>
+            <img src="img/barra.png" alt="">
+        </article>
+        <article>
+          <p class="comida">Pan de centeo</p> <br>
+            <img src="img/panCenteo.jpg" alt="">
+        </article>
+        <article>
+          <p class="comida">Tarta de Santiago</p> <br>
+            <img src="img/santi.jpg" alt="">
+        </article>
+        <article>
+          <p class="comida">Roscón</p> <br>
+            <img src="img/rooscon.jpg" alt="">
+        </article>
+        <article>
+          <p class="comida">Galletas clásicas</p> <br>
+            <img src="img/galletasCla.jpg" alt="">
+        </article>
+        <article>
+          <p class="comida">Galletas de chocolate</p> <br>
+            <img src="img/galletaschocolate.jpg" alt="">
+        </article>
+    </section>
+
+    <section class="segun">
+        <span>
+          <p><a class="segun" href="">Según o día</a></p>
+        </span>
+        <article>
+          <fieldset>
+            <legend align= "center">Luns, mércores, venres e domingo</legend>
+            <p>Empanada de carne e empanada de bonito</p>
+            <img src="img/atun.jpg" alt="">
+            <img src="img/empanadaCar.jpg" alt="">
+          </fieldset>
+
+        </article>
+        <article>
+          <fieldset>
+            <legend align= "center">Martes, xoves e sábado</legend>
+            <p>Croissants e magdalenas</p>
+
+            <img src="img/crois.jpg" alt="">
+            <img src="img/madalenas.jpg" alt="">
+          </fieldset>
+
+        </article>
+        <article>
+          <fieldset>
+            <legend align= "center">Martes e sábado</legend>
+            <p>Pan de molde e torta de mazá</p>
+            <img src="img/molde.jpg" alt="">
+            <img src="img/maza.png" alt="">
+
+          </fieldset>
+        </article>
+        <article>
+          <fieldset>
+            <legend align= "center">Mércores</legend>
+            <p>Pan de cereais e tortas con xarope</p>
+            <img src="img/panCer.jpg" alt="">
+            <img src="img/xarope.jpg" alt="">
+          </fieldset>
+        </article>
+    </section>
+    <section class="encarga">
+      <span>
+        <p><a class="segun" href="">Asados</a></p>
+      </span>
+      <p >Tamén podes encargar lacón, polo ou costela asada</p>
+      <img src="img/asssau.jpg" alt="">
+      <img src="img/pollllll.jpg" alt="">
+    </section>
+
+    <footer>
+      <div class="footer">
+          <p><img class="foot1" id="cara1" src="img/manuela.jpg"><br>Manuela</p>
+          <p><img class="foot1" src="img/panadeiro.jpg"><br>Panadeiro</p>
+          <p><img class="foot1" src="img/pastelero.jpg"><br>Pasteleiro</p>
+          <p><img class="foot1" src="img/dependienta.jpg"><br>Dependienta</p>
+      </div>
+      <div class="footer3">
+          <p id="redes">Redes sociais:</p> <br>
+          <div>
+              <img class="foot2" id="facebu" src="img/face.png">
+              <img class="foot2" src="img/twitter.png">
+              <img class="foot2" src="img/mail.png">
+          </div>
+      </div>
+      <div class="foot">
+          <p id="fras">© Copyright 2016 fornodemanuela.es</p>
+      </div>
+    </footer>
+</body>
+
+</html>

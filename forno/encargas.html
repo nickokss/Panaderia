@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilosEnc.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <script type=”text/javascript”>
+        var dispositivo = navigator.userAgent.toLowerCase();
+        if (dispositivo.search(/iphone|ipod|ipad|android/) > -1) {
+            document.location = "";
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var div1 = $('#un');
+            var div2 = $('#dous');
+            var div3 = $('#tres');
+            var menu = $('#menu');
+            var contenedor = $('#menu-contenedor');
+            var menu_offset = menu.offset();
+            var menu_offset1 = div1.offset();
+            var menu_offset2 = div2.offset();
+            var menu_offset3 = div3.offset();
+
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > menu_offset.top) {
+                    menu.addClass('cabecera');
+                } else {
+                    menu.removeClass('cabecera');
+                }
+
+            });
+
+        });
+    </script>
+    <title>O forno de manuela</title>
+</head>
+
+<body>
+    <header id="menu">
+        <div id="un">
+            <nav>
+                <ul>
+                    <li class="forno"><a href="./index.html">Inicio</a></li>
+                    <li class="comidas"><a href="./productos.html">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="dous">
+            <a class='logo' href="./index.html">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <div id="tres">
+            <nav>
+                <ul>
+                    <li class="encargas"><a href="./encargas.html">Encargas</a></li>
+                    <li class="contacto"><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="lema2">
+        <img class="pro" src="img/lume.jpg">
+
+        <h1>Encargas</h1>
+        <h3>-Encarga calquera destes asados, só necesitas chamar-</h3>
+        <br>
+
+    </div>
+    <section class="asado">
+        <article>
+            <img src="img/asado.JPG" alt="">
+            <p class="comida">Lacón asado</p>
+        </article>
+        <article>
+            <img src="img/pollo.jpg" alt="">
+            <p class="comida">Polo asado</p>
+        </article>
+        <article>
+            <img src="img/costela.jpg" alt="">
+            <p class="comida">Costela asada</p>
+        </article>
+    </section>
+    <div class="boton">
+
+
+    <a class="boton" href="./contacto.html"><i class="fa fa-phone" aria-hidden="true"></i>Chama xa!</a>
+  </div>
+    <section class="asadoLema">
+      <fieldset>
+        <legend align="center">O asado</legend>
+        <p class="asadolema">É unha técnica de cocción mediante a que os alimentos (xeralmente trozos de carne)
+           son expostos ó calor do lume ou brasas para que se cociñen lentamente. O calor
+            transmitese gradualmente ó alimento, que polo xeral está suspendido sobre o lume ou
+            cerca das brasas. O lume lograse a partir de carbón vexetal ou de madeira, inda que hai
+             tamén parrillas de gas. As madeiras máis usadas son madeiras duras coma as de carballo, mezquite,
+              quebracho ou coronilla, que arden a temperaturas altas e por un tempo prolongado. Se ben a
+               carne máis empleada é a carne vacuna, tamén se asa carne de porco, de cordeiro, cabrito,
+                pescado, polo, langostinos e diversos embutidos.</p>
+      </fieldset>
+
+
+    </section>
+
+
+    <footer>
+        <div class="foot">
+            <p id="fras">© Copyright 2016 fornodemanuela.es</p>
+        </div>
+        <div class="footer">
+            <p><img class="foot1" id="cara1" src="img/manuela.jpg"><br>Manuela</p>
+            <p><img class="foot1" src="img/panadeiro.jpg"><br>Panadeiro</p>
+            <p><img class="foot1" src="img/pastelero.jpg"><br>Pasteleiro</p>
+            <p><img class="foot1" src="img/dependienta.jpg"><br>Dependienta</p>
+        </div>
+        <div class="footer3">
+            <p id="redes">Redes sociais:</p> <br>
+            <img class="foot2" id="facebu" src="img/face.png">
+            <img class="foot2" src="img/twitter.png">
+            <img class="foot2" src="img/mail.png">
+        </div>
+    </footer>
+</body>
+
+</html>
